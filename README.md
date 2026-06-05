@@ -1,13 +1,16 @@
-# Retail Sales Analysis and Dashboard
+# Ecommerce Sales Analysis and Dashboard
 
-This project focuses on analyzing retail sales data and potentially visualizing key insights through a web application. It aims to provide an understanding of sales trends, customer behavior, or product performance based on the provided dataset.
+This project focuses on analyzing retail sales data and providing key insights through an interactive web application. It aims to provide an understanding of sales trends, customer behavior, and performance metrics.
+
+## 🔗 Live Application
+[Ecommerce Sales Analysis Dashboard](https://ecommerce-sales-analysis-dashboard.streamlit.app/)
 
 ## Project Files
 
-* `app.py`: This is likely the main application file, possibly a Flask or Streamlit application, designed to serve a dashboard or interactive visualization of the retail sales data.
-* `retail_sales_dataset.csv`: This CSV file contains the core dataset for the project, presumably including details about sales transactions, products, customers, and dates.
-* `requirements.txt`: This file lists the Python libraries and their specific versions that are necessary to run `app.py` and any other scripts within this project. It ensures a consistent development and deployment environment.
-* `package.txt`: This file's purpose is not immediately clear from its name alone. It might contain additional package lists, build instructions, or deployment-specific configurations. Further inspection would be needed to determine its exact role.
+* `app.py`: This is the main application file, a Streamlit application designed to serve a dashboard or interactive visualization of the retail sales data.
+* `retail_sales_dataset.csv`: This CSV file contains the core dataset for the project, including details about sales transactions, products, customers, and dates.
+* `requirements.txt`: This file lists the Python libraries and their specific versions necessary to run `app.py` and other scripts. It ensures a consistent development environment.
+* `package.txt`: Contains additional package lists and deployment-specific configurations.
 
 ## Getting Started
 
@@ -45,11 +48,10 @@ To set up and run this project, follow these steps:
     pip install -r requirements.txt
     ```
 
-    *If `package.txt` also lists dependencies, you might need to install those as well, depending on its content.*
-
 ### Running the Application
 
 Once the dependencies are installed, you can start the main application:
 
 ```bash
 python app.py
+```
